@@ -22,6 +22,4 @@ COPY start_rabbit /bin/
 
 RUN chmod +x /bin/start_rabbit
 
-RUN start_rabbit
-
-CMD ["bash"]
+CMD ["start_rabbit"]
