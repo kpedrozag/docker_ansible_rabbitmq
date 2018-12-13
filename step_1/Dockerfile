@@ -22,4 +22,4 @@ COPY start_rabbit /bin/
 
 RUN chmod +x /bin/start_rabbit
 
-CMD ["start_rabbit"]
+CMD ["rabbitmq-server"]
